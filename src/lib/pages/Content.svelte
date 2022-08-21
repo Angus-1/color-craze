@@ -79,7 +79,7 @@
 		width: 12.4rem;
 		height: 10.5rem;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
-		
+		border-radius: 10px;
 	}	
 	
   h1 {
@@ -104,7 +104,7 @@
 		margin-right:.3rem;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 		margin-bottom:4rem;
-		
+		border-radius: 10px;
 	}
 	/*  container to position the front & back side */
 	.flip-box-inner {
@@ -114,11 +114,10 @@
 		text-align: center;
 		transition: transform 0.8s;
 		transform-style: preserve-3d;
-		
+		border-radius: 10px;
 	}
 
-	
-	
+
 	.show-back {
 		transform: rotateY(180deg);
 	}
@@ -130,12 +129,14 @@
 		height: 100%;
 		-webkit-backface-visibility: hidden; /* Safari */
 		backface-visibility: hidden;
+		border-radius: 10px;
 	}
 
 	/* Style the front side */
 	.flip-box-front {
 		background-color: rgb(255, 251, 251);
 		color:black;
+		border-radius: 10px;
 	}
 
 	/* Style the back side */
@@ -143,27 +144,30 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: rgb(255, 255, 255);
-		color: rgb(0, 0, 0);
+		background-color: #1F2937;
+		color: #7EACC0;
 		width: 12.3rem;
 		height: 19.5rem;
 		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
+		border-radius: 10px;
 	}
 
 
-	/*--------------------------*/
+	/*----------text box for colors----------------*/
 
 	footer {
 		width: 200px;
 		font-weight: 800;
 		padding: 5px 2px;
 		text-align: center;
-		border: 1px solid darkgray;
+		border: 1px solid #7EACC0;
 		border-top: 1px solid black;
-/* 		box-shadow: 0 0 2px black; */
+		background-color: #1F2937;
+		color: #7EACC0;
 		cursor: pointer;
 		transition: .3s all;
+		border-radius: 10px;
 	}
 	
 	footer:hover {
