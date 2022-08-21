@@ -75,7 +75,7 @@
 
 <style>
 		.color-container{
-		margin: 0 0px 40px;
+		margin: 0 0rem 4rem;
 		width: 12.4rem;
 		height: 10.5rem;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
@@ -100,10 +100,11 @@
 		background-color: transparent;
 		width: 200px;
 		height: 310px;
-		margin: 0 20px 40px;
-		border: 1px solid #f1f1f1;
+		margin-left:.3rem;
+		margin-right:.3rem;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 		margin-bottom:4rem;
+		
 	}
 	/*  container to position the front & back side */
 	.flip-box-inner {
@@ -120,7 +121,6 @@
 	
 	.show-back {
 		transform: rotateY(180deg);
-		
 	}
 
 	/* Position the front and back side */
@@ -178,60 +178,18 @@
 	}
 
 		 
-	.column {
-		float: left;
-		width: 43.3%;
-		margin-bottom: 16px;
-		padding: 0 8px;
-	} 
 
-	/* Display the columns below each other instead of side by side on small screens */
-	 @media screen and (max-width: 650px) {
-		.column {
-			width: 100%;
-			display: block;
-		}
-	}
-	 
 
 	.card {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
 
-	/* Some left and right padding inside the container */
-	.container {
-		padding: 5px;
-	}
-
-	/* Clear floats */
-	.container::after, .row::after {
-		content: "";
-		clear: both;
-		display: table;
-	} 
 	
-	h2 {
-		margin: 5px 0 0 0;
-	}	
+	
 
-	.title {
-		color: grey;
-	}
 
-	.button {
-		border: none;
-		outline: 0;
-		display: inline-block;
-		padding: 8px;
-		font-weight: bold;
-		background-color: #FFF;
-		text-align: center;
-		cursor: pointer;
-		width: 80%;
-	}
 
-	.button:hover {
-		background-color: goldenrod;
-	}
+
+	
 </style>
 
