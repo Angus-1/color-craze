@@ -76,7 +76,7 @@
 <style>
 		.color-container{
 		margin: 0 0rem 4rem;
-		width: 12.4rem;
+		width: 12.5rem;
 		height: 10.5rem;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
 		border-radius: 10px;
