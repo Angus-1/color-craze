@@ -4,7 +4,6 @@ export const colors = [
         title: "Ice",
         color1: "#86DAFE",
         color2: "#FFFFFF",
-        color3:"",
         descr:"Icey blue",
      
     },   
@@ -12,8 +11,7 @@ export const colors = [
         id: 1,
         title: "Nebula",
         color1: "#ED94F9",
-        color2: "#4DD2FF",
-        color3:"",
+        color2: "#4DD2FF", 
         descr:"Look into the stars!",
           	
       },
@@ -22,7 +20,6 @@ export const colors = [
         title: "Northern Lights",
         color1: "#D049B3",
         color2: "#45ED7A",
-        color3:"",
         descr:"Pretty lights",
         
       },
@@ -30,8 +27,7 @@ export const colors = [
         id: 3,
         title: "title",
         color1: "#89d9ff",
-        color2: "#fff989",
-        color3:"",
+        color2: "#fff989", 
         descr:"yellow blue looks coool",
       },
     {
@@ -39,7 +35,6 @@ export const colors = [
         title: "title",
         color1: "#fff989",
         color2: "#89d9ff",
-        color3:"",
         descr:"yellow blue looks coool",
      
       },
@@ -48,7 +43,6 @@ export const colors = [
         title: "t",
         color1: "#fff989",
         color2: "#89d9ff",
-        color3:"",
         descr:"yellow blue looks coool",
       }
   ]

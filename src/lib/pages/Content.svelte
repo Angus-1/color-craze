@@ -7,6 +7,7 @@
   export let backgroundClass = primaryBackground;
   import { colors } from "$lib/pages/colors";
 	
+  
 	// @ts-ignore
 	let selected;
 // @ts-ignore
@@ -29,6 +30,7 @@
 
 	let deg = 45
 	$: degString = `${deg}deg`
+
 </script>
 
 <Page id="content" title=" " {backgroundClass}>
@@ -50,11 +52,13 @@
 				"
 				
 			  ></div>
-	
-			  <label for="color-1">Color 1</label>
-			<input name="color-1" type="color" bind:value={color1}/>
+			 
+			  {color1.toString(16)} 
+			  <input name="color-1" type="color" bind:value={color1}/>
+			
+			
 			<br>
-			  <label for="color-2">Color 2</label>
+			{color2.toString(16)} 
 			<input name="color-2" type="color" bind:value={color2}/>
             </div>
     
