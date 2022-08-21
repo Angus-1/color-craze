@@ -86,9 +86,9 @@
 
 <style>
 		.color-container{
-		margin: 0 0rem 4rem;
+		margin: 0 0rem 1rem;
 		width: 12.5rem;
-		height: 10.5rem;
+		height: 12.5rem;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
 		border-radius: 10px;
 	}	
@@ -110,7 +110,7 @@
 	.flip-box {
 		background-color: transparent;
 		width: 12.5rem;
-		height: 20rem;
+		height: 18.5rem;
 		margin-left:.3rem;
 		margin-right:.3rem;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
