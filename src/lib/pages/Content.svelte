@@ -33,12 +33,16 @@
 
 </script>
 
+
+
 <Page id="content" title=" " {backgroundClass}>
   <Text>
 
 	<div class = intro > Some of my favor colors/gradients, play with them as you wish! </div>
 	<label for="degrees">Degrees: {deg}</label>
 <input name="degrees" type="range" min="0" max="360" bind:value={deg}/>
+
+
 
     <div class="row">
       {#each colors as {title,color1, color2, descr,}, i}
@@ -50,37 +54,29 @@
 					--deg: {degString};
 					--gradient-1:{color1};
 					--gradient-2:{color2};
-				"
-				
-			  ></div>
-			 
-			  
-			  <input name="color-1" type="color" bind:value={color1}/>
-			
-			
-			<br>
+				">
 		
+			</div>  
+			  <input name="color-1" type="color" bind:value={color1}/>	
+			<br>
 			<input name="color-2" type="color" bind:value={color2}/>
             </div>
-    
+
             <div class="flip-box-back container">
               <p>{title}</p>
                {color1.toString(16)}
 			   <br>
               {color2.toString(16)} 
               <p>{descr}</p>
-
             </div>
           </div>
           <footer on:click={toggleBackFront} data-card-id={i}>{title}</footer>
         </div>
       {/each}
     </div>	
+
+
   </Text>
-
-
-
-
 </Page>
 
 
