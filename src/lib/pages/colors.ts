@@ -40,10 +40,10 @@ export const colors = [
       },
       {
         id: 5,
-        title: "t",
-        color1: "#fff989",
+        title: "Flowing Blue",
+        color1: "#1B3375",
         color2: "#89d9ff",
-        descr:"yellow blue looks coool",
+        descr:"Watery Wonder",
       },
       {
         id: 6,
