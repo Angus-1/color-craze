@@ -35,7 +35,7 @@
 
 
 
-<Page id="content" title=" " {backgroundClass}>
+<Page id="content" >
   <Text>
 
 	<div class = intro > Some of my favor colors/gradients, play with them as you wish! </div>
@@ -81,6 +81,7 @@
 
 
 <style>
+	
 		.color-container{
 		margin: 0 0rem 1rem;
 		width: 12.5rem;

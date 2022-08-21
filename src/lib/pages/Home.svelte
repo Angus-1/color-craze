@@ -13,7 +13,7 @@
   id="bg"
 >
   <div class="text-center">
-    <h1 class="text-5xl m-6 {color} font-light"> Color-Craze  </h1>
+    <h1 class="text-5xl m-6 {color} font-light">🖌️ Color-Craze 🎨  </h1>
   </div>
 
 </div>
@@ -21,12 +21,14 @@
 <style>
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
-    background-image: linear-gradient(217deg, rgba(125, 190, 252, 0.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0, 4, 255, 0.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(248, 248, 248, 0.8), rgba(0,0,255,0) 70.71%);
-    
+    background: radial-gradient(circle 150px at 61% 0%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 144px at 33% 100%,rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 94px at 56% 36%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 183px at 16% 59%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 212px at 7% 86%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 107px at 0% 19%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    linear-gradient(90deg, rgb(55, 75, 129),rgb(55, 72, 129));
   }
-
   .text-2{
   font-size: 1.8rem;  
   margin: 0rem;
