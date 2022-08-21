@@ -25,14 +25,14 @@ export const colors = [
       },
     {
         id: 3,
-        title: "Tool blue",
+        title: "Industrial blue",
         color1: "#1F2937",
         color2: "#1F2937", 
         descr:"For serious menus and stuff",
       },
     {
         id: 4,
-        title: "title",
+        title: "Tool blue",
         color1: "#6B91A4",
         color2: "#6B91A4",
         descr:"For writing on serious menus!",
