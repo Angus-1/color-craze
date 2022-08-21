@@ -45,6 +45,7 @@
 					--gradient-2:{color2};
 				"
 			  ></div>
+	
 			  <label for="color-1">Color 1</label>
 			<input name="color-1" type="color" bind:value={color1}/>
 			<br>
@@ -57,10 +58,6 @@
               <p>{color1}</p>
               <p>{color2}</p>
               <p>{descr}</p>
-
-			 
-			
-           
 
             </div>
           </div>
@@ -149,10 +146,7 @@
 	}
 
 
-	img {
-		max-height: 100%;
-
-	}	
+	/*--------------------------*/
 
 	footer {
 		width: 200px;
@@ -177,10 +171,10 @@
 		background-color: #888
 	}
 
-		 Three columns side by side 
+		 
 	.column {
 		float: left;
-		width: 33.3%;
+		width: 43.3%;
 		margin-bottom: 16px;
 		padding: 0 8px;
 	} 
@@ -193,7 +187,7 @@
 		}
 	}
 	 
-	 Add some shadows to create a card effect 
+
 	.card {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
