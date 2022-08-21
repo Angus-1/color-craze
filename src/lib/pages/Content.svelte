@@ -36,6 +36,7 @@
 <Page id="content" title=" " {backgroundClass}>
   <Text>
 
+	<div class = intro > Some of my favor colors/gradients, play with them as you wish! </div>
 	<label for="degrees">Degrees: {deg}</label>
 <input name="degrees" type="range" min="0" max="360" bind:value={deg}/>
 
@@ -53,19 +54,20 @@
 				
 			  ></div>
 			 
-			  {color1.toString(16)} 
+			  
 			  <input name="color-1" type="color" bind:value={color1}/>
 			
 			
 			<br>
-			{color2.toString(16)} 
+		
 			<input name="color-2" type="color" bind:value={color2}/>
             </div>
     
             <div class="flip-box-back container">
               <p>{title}</p>
-              <p>{color1}</p>
-              <p>{color2}</p>
+               {color1.toString(16)}
+			   <br>
+              {color2.toString(16)} 
               <p>{descr}</p>
 
             </div>
