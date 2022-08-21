@@ -178,9 +178,9 @@
 	}
 	
 	footer:hover {
-		color: #fff;
-		background-color: #000;
-		border: 1px solid black;
+		color: #FFFFFF;
+		background-color: #1E40AF;
+		border: 1px solid rgb(253, 253, 253);
 	}
 	
 	footer:active {

@@ -23,13 +23,13 @@
       id: "#home",
       route: "/home",
       name: "home",
-      title: "Home",
+      title: "Welcome",
     },
     {
       id: "#content",
       route: "/content",
       name: "content",
-      title: "content",
+      title: "Colors",
     },
 
   ];
