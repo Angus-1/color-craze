@@ -158,7 +158,7 @@
 		background-color: #1F2937;
 		color: #7EACC0;
 		width: 12.3rem;
-		height: 19.5rem;
+		height: 18.5rem;
 		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
 		border-radius: 10px;
