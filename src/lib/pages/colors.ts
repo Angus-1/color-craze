@@ -63,7 +63,7 @@ export const colors = [
         id: 8,
         title: "Nightclub",
         color1: "#763ecc",
-        color2: "#0079fa",
+        color2: "#3a93f2",
         descr:"yellow blue looks coool",
       },
       {
