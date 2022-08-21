@@ -1,7 +1,7 @@
 export const colors = [
     {
         id: 0,
-        title: "Ice",
+        title: "Frost",
         color1: "#86DAFE",
         color2: "#FFFFFF",
         descr:"Icey blue",
