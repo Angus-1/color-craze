@@ -79,19 +79,11 @@
 <style>
 		.color-container{
 		margin: 0 0px 40px;
-		width: 200px;
-		height: 200px;
-		border: 2px solid black;
+		width: 12.4rem;
+		height: 10.5rem;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2))
 	}	
-	.flip-box {
-		background-color: transparent;
-		width: 200px;
-		height: 310px;
-		margin: 0 20px 40px;
-		border: 1px solid #f1f1f1;
-		perspective: 1000px; /* Remove this if you don't want the 3D effect */
-	}
+	
   h1 {
 		margin: 0 0 5px;
 	}
@@ -104,7 +96,14 @@
 	}
 	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 	
-
+	.flip-box {
+		background-color: transparent;
+		width: 200px;
+		height: 310px;
+		margin: 0 20px 40px;
+		border: 1px solid #f1f1f1;
+		perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	}
 	/*  container to position the front & back side */
 	.flip-box-inner {
 		position: relative;
@@ -132,7 +131,8 @@
 
 	/* Style the front side */
 	.flip-box-front {
-		background-color: #000;
+		background-color: rgb(255, 251, 251);
+		color:black;
 	}
 
 	/* Style the back side */
@@ -140,10 +140,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: black;
-		color: white;
-		width: 196px;
-		height: 300px;
+		background-color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
+		width: 12.3rem;
+		height: 19.5rem;
+		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
 	}
 
