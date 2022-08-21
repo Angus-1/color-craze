@@ -50,7 +50,7 @@ export const colors = [
         title: "Peachy Sunset",
         color1: "#fcfe62",
         color2: "#f780ff",
-        descr:"yellow blue looks coool",
+        descr:"Watching the Sunset at the beach!",
       },
       {
         id: 7,
@@ -64,7 +64,7 @@ export const colors = [
         title: "Nightclub",
         color1: "#763ecc",
         color2: "#3a93f2",
-        descr:"yellow blue looks coool",
+        descr:"Turn up!",
       },
       {
         id: 9,
