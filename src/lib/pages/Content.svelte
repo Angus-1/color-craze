@@ -78,11 +78,13 @@
 		margin: 0 0px 40px;
 		width: 12.4rem;
 		height: 10.5rem;
-		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2))
+		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
+		
 	}	
 	
   h1 {
 		margin: 0 0 5px;
+		
 	}
 	
 	.row {
@@ -90,6 +92,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-bottom: 10%;
+		
 	}
 	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 	
@@ -100,6 +103,7 @@
 		margin: 0 20px 40px;
 		border: 1px solid #f1f1f1;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		margin-bottom:4rem;
 	}
 	/*  container to position the front & back side */
 	.flip-box-inner {
@@ -109,12 +113,14 @@
 		text-align: center;
 		transition: transform 0.8s;
 		transform-style: preserve-3d;
+		
 	}
 
 	
 	
 	.show-back {
 		transform: rotateY(180deg);
+		
 	}
 
 	/* Position the front and back side */
