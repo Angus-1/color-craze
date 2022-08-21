@@ -33,6 +33,10 @@
 
 <Page id="content" title=" " {backgroundClass}>
   <Text>
+
+	<label for="degrees">Degrees: {deg}</label>
+<input name="degrees" type="range" min="0" max="360" bind:value={deg}/>
+
     <div class="row">
       {#each colors as {title,color1, color2, descr,}, i}
         <div class="flip-box">
@@ -44,6 +48,7 @@
 					--gradient-1:{color1};
 					--gradient-2:{color2};
 				"
+				
 			  ></div>
 	
 			  <label for="color-1">Color 1</label>
