@@ -48,7 +48,7 @@ export const colors = [
       {
         id: 6,
         title: "Peachy Sunset",
-        color1: "#fcfe62",
+        color1: "#fff261",
         color2: "#f780ff",
         descr:"Watching the Sunset at the beach!",
       },
@@ -83,7 +83,7 @@ export const colors = [
       {
         id: 11,
         title: "Banana",
-        color1: "#e2ff7a",
+        color1: "#fffb7a",
         color2: "#ffffff",
         descr:"Curious George would go crazy",
       },
