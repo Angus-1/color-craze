@@ -4,7 +4,7 @@
   import Text from "$lib/components/Text.svelte";
   import { primaryBackground } from "$lib/utils/constants";
 
-  export let backgroundClass = primaryBackground;
+
   import { colors } from "$lib/pages/colors";
 	
   
@@ -90,10 +90,7 @@
 		border-radius: 10px;
 	}	
 	
-  h1 {
-		margin: 0 0 5px;
-		
-	}
+ 
 	
 	.row {
 		display: flex;

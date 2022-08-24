@@ -87,4 +87,25 @@ export const colors = [
         color2: "#ffffff",
         descr:"Curious George would go crazy",
       },
+      {
+        id: 12,
+        title: "Pale blue",
+        color1: "#a4b9f4",
+        color2: "#a9d5ea",
+        descr:"Just another light blue",
+      },
+      {
+        id: 13,
+        title: "Rose Petal",
+        color1: "#c4a4f4",
+        color2: "#f566a4",
+        descr: "Pretty plant",
+      }, 
+      {
+        id: 14,
+        title: "Leaf",
+        color1: "#b8ffcf",
+        color2: "#bffdd7",
+        descr: "Nature!",
+      },
   ]

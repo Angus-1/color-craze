@@ -3,7 +3,6 @@
   import Footer from "$lib/components/Footer.svelte";
   import Text from "$lib/components/Text.svelte";
   import { primaryBackground } from "$lib/utils/constants";
-
   export let backgroundClass = primaryBackground;
 </script>
 
