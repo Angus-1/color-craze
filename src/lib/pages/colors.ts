@@ -108,4 +108,25 @@ export const colors = [
         color2: "#bffdd7",
         descr: "Nature!",
       },
+      {
+        id: 15,
+        title: "Clean Dirt",
+        color1: "#e1c193",
+        color2: "#e1c193",
+        descr: "Clean dirt???",
+      },
+      {
+        id: 15,
+        title: "Sandy Cheeks ",
+        color1: "#fdecbf",
+        color2: "#fdecbf",
+        descr: "Beach Sand",
+      },
+      {
+        id: 15,
+        title: "Gravel",
+        color1: "#515252",
+        color2: "#a1a5a3",
+        descr: "Nature!",
+      },
   ]
