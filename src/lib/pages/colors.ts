@@ -120,7 +120,7 @@ export const colors = [
         title: "Sandy Cheeks ",
         color1: "#fdecbf",
         color2: "#fdecbf",
-        descr: "Beach Sand",
+        descr: "Reminds me of Beach Sand",
       },
       {
         id: 15,
