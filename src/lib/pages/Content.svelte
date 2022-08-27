@@ -64,9 +64,10 @@
 
             <div class="flip-box-back container">
               <p>{title}</p>
-               {color1.toString(16)}
+			  linear-gradient <br>({color1.toString(16)}, <br>{color2.toString(16)});
+               
 			   <br>
-              {color2.toString(16)} 
+              
               <p>{descr}</p>
             </div>
           </div>
