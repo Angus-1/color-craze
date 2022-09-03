@@ -127,6 +127,6 @@ export const colors = [
         title: "Gravel",
         color1: "#515252",
         color2: "#a1a5a3",
-        descr: "Nature!",
+        descr: "Not nature!",
       },
   ]
