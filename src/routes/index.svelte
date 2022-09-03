@@ -21,6 +21,6 @@
 
 <Home />
 <!--About me/bio-->
-<Content backgroundClass={primaryBackground} />
+<Content />
 
 <Footer backgroundClass={neutralBackground} />
