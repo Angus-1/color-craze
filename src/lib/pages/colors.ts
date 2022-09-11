@@ -129,4 +129,26 @@ export const colors = [
         color2: "#a1a5a3",
         descr: "Not nature!",
       },
+      {
+        id: 16,
+        title: "Fancy Blue",
+        color1: "#8EA8C3",
+        color2: "#8EA8C3",
+        descr: "Another blue!",
+      },
+      {
+        id: 17,
+        title: "Sailor blue",
+        color1: "#23395B",
+        color2: "#23395B",
+        descr: "Another blue!",
+      },
+      {
+        id: 18,
+        title: "Mariner Blue",
+        color1: "#406E8E",
+        color2: "#406E8E",
+        descr: "Another blue!",
+      },
+     
   ]
