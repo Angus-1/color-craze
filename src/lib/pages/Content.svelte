@@ -6,6 +6,7 @@
 
 
   import { colors } from "$lib/pages/colors";
+  import Anchor from "$lib/components/Anchor.svelte";
 	
   
 	// @ts-ignore
@@ -35,9 +36,16 @@
 
 
 
-<Page id="content" >
-  <Text>
 
+<Anchor id="content" />
+<div
+class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
+id="bg"
+>
+  <Text>
+	<div class="text-center">
+		<h1 class="text-5xl m-6 font-light">🖌️ Color Craze 🎨  </h1>
+	  </div>
 	<div class = intro > Some of my favor colors/gradients, play with them as you wish! </div>
 	<label for="degrees">Degrees: {deg}</label>
 <input name="degrees" type="range" min="0" max="360" bind:value={deg}/>
@@ -75,14 +83,22 @@
         </div>
       {/each}
     </div>	
-
-
   </Text>
-</Page>
+</div>
+
 
 
 <style>
-	
+	 #bg {
+    /* The image used background-image: url("/assets/images/background1.jpg"); */
+    background: radial-gradient(circle 150px at 61% 0%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 144px at 33% 100%,rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 94px at 56% 36%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 183px at 16% 59%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 212px at 7% 86%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    radial-gradient(circle 107px at 0% 19%, rgb(219, 225, 239) 0%, rgb(219, 225, 239) 50%,transparent 50%, transparent 100%),
+    linear-gradient(90deg, rgb(55, 75, 129),rgb(55, 72, 129));
+  }
 		.color-container{
 		margin: 0 0rem 1rem;
 		width: 12.5rem;
