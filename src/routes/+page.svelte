@@ -20,4 +20,3 @@
 
 <Content />
 
-<Footer backgroundClass={neutralBackground} />

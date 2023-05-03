@@ -1,9 +1,13 @@
 <script>
   import "../app.css";
   import Navbar from "$lib/components/Navbar.svelte";
+  import Footer from "$lib/pages/Footer.svelte";
+
 </script>
 
-<!-- <Navbar /> -->
-<main class="pt-16">
+
+<main class="pt-5">
+<Navbar/>
   <slot />
 </main>
+<Footer/>
